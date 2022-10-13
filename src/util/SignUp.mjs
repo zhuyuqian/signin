@@ -5,6 +5,7 @@ export class SignUp {
         this.cookie = config.cookie || '';
         this.cron = config.cron || '';
         this.emailTo = config.emailTo || '';
+        this.pushTo = config.pushTo || '';
         this.immediately = config.immediately || false;
     }
 

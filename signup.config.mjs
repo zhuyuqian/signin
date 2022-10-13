@@ -12,8 +12,9 @@ export default {
                 cron: '0 1 * * *',
                 immediately: true,
                 emailTo: '416556102@qq.com',
-                cookie: ''
-            }
+                pushTo: '',
+                cookie: '',
+            },
         ]
     }
 }
